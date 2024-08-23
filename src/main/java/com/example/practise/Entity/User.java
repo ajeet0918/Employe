@@ -13,7 +13,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
  private int id;
     @Column(name = "employename")
-    private String employname;
+    private String employename;
     @Column(name = "companyname")
     private String companyname;
     @OneToMany(mappedBy = "user")

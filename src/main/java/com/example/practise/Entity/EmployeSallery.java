@@ -1,13 +1,11 @@
 package com.example.practise.Entity;
-
-
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "EmployeSalleryService")
+@Table(name = "Employesallery")
 public class EmployeSallery {
       @Id
       @GeneratedValue(strategy = GenerationType.IDENTITY)
